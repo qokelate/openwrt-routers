@@ -1,0 +1,759 @@
+Package: iwinfo
+Version: 2019-05-21-073a8388-1
+Depends: libc, libiwinfo20181126
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: liblucihttp0
+Version: 2019-06-05-91c01c3c-1
+Depends: libc
+Provides: liblucihttp
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libc
+Version: 1.1.22-1
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libpthread
+Version: 1.1.22-1
+Depends: libgcc1
+Status: install hold installed
+Essential: yes
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: ubus
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubus20170705, libblobmsg-json, ubusd
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: iw
+Version: 5.0.1-1
+Depends: libc, libnl-tiny
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libuci20130104
+Version: 2019-05-17-f199b961-3
+Depends: libc, libubox20170601
+Provides: libuci
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: rpcd
+Version: 2019-06-05-89bfaa42-2
+Depends: libc, libubus20170705, libubox20170601, libuci20130104, libblobmsg-json
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/config/rpcd 81a24774226d42c6ea53b531992335cc910094a7e17f80a803e680e2eededd4f
+Installed-Time: 1560295132
+
+Package: busybox
+Version: 1.30.1-4
+Depends: libc
+Status: install user installed
+Essential: yes
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Alternatives: 100:/usr/sbin/brctl:/bin/busybox, 100:/usr/bin/find:/bin/busybox, 100:/usr/bin/flock:/bin/busybox, 100:/usr/bin/free:/bin/busybox, 100:/sbin/ip:/bin/busybox, 100:/bin/kill:/bin/busybox, 100:/usr/bin/pgrep:/bin/busybox, 100:/bin/ps:/bin/busybox, 100:/usr/bin/top:/bin/busybox, 100:/usr/bin/uptime:/bin/busybox, 100:/usr/bin/xargs:/bin/busybox
+
+Package: luci-lib-ip
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, liblua5.1.5, libnl-tiny
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libubus-lua
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubus20170705, liblua5.1.5
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-nf-reject6
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: libiwinfo-lua
+Version: 2019-05-21-073a8388-1
+Depends: libc, libiwinfo20181126, liblua5.1.5
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: swconfig
+Version: 12
+Depends: libc, libuci20130104, libnl-tiny
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: luci-mod-system
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, luci-base
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-nf-flow
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-conntrack
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-lib-crc-ccitt
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-pppoe
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ppp, kmod-pppox
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-pppox
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ppp
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-ipt-conntrack
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ipt-core, kmod-nf-conntrack
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-nf-reject
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: base-files
+Version: 197-unknown
+Depends: libc, netifd, procd, jsonfilter, usign, openwrt-keyring, fstools, fwtool
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/ethers 56bda09b0aa3d1e88107bfa8a1c6e4449d5c1f47245dc1c4037ff9b5db163b7c
+ /etc/group 45e8cab268d4a2254d48ccb1f889630047e81758de54a614cad5449fdbebe19c
+ /etc/hosts c1a978d90673437b35fa9494e0a54294062c152bb653d490b718052ab88447fd
+ /etc/inittab 8b395f7d827753e1e92d4a1c369d9fe16caa23bf742b3f78e4599c4dd9b1b6e3
+ /etc/iproute2/rt_protos a0712b1771c8d5f3e0dcf9a6314880e71aa3498ea1ae873535bdfcf70d814061
+ /etc/iproute2/rt_tables f771e2b81741f70e3faf658dc504f0dc048672fc8caaadea15e46c35da3de8f8
+ /etc/passwd 6a451aa33393f47ade89b8bce4d9711818c2630394c3967265ffed276bb25a55
+ /etc/profile 9e36315e247bae64a6027c973cb421ff6fd76b8eae5adbac824cc8ad63f5a996
+ /etc/protocols 7d551355d5540b07b9d86e623cbbc4abecbb94d2a662b3afcc917940eb0e3d52
+ /etc/rc.local 515018aa94eb4937dade12dc0d69890b352af35a5ab5fb8203f9ed10990ac06f
+ /etc/services 754ccc71ca347bc79ac4c45139d416b7cf1e65a919dad1db15613a216cd6b9cc
+ /etc/shadow ccbbfeee2dd560403fea13f7f431ebd21d9bb4b3d41e48e892013fa451f91cc4
+ /etc/shells 8b35ce73c18161a7d7ed16fa244410993bd031515260e3e0c11749047df48d0a
+ /etc/sysctl.conf c02fe88dc055a1eaee9e7cb631760a3a5a9cea55610b42aa45196838c6f1a55e
+ /etc/sysupgrade.conf 9e87b05fe2f12c84d1c465b396322748479f64bc40e5bab061887f0bd95020a6
+Installed-Time: 1560295132
+
+Package: kmod-nf-nat
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-conntrack
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: netifd
+Version: 2019-06-08-8c6358b5-2
+Depends: libc, libuci20130104, libnl-tiny, libubus20170705, ubus, ubusd, jshn, libubox20170601
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: uboot-envtools
+Version: 2018.03-3
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: dnsmasq
+Version: 2.80-13
+Depends: libc, libubus20170705
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/config/dhcp e90f7b32e9c4e8f526a435607f792aa0439dd69fabfe1038eed5b27efc616be0
+ /etc/dnsmasq.conf 1e6ab19c1ae5e70d609ac7b6246541d52042e4dee1892f825266507ef52d7dfd
+Installed-Time: 1560295132
+
+Package: procd
+Version: 2019-05-30-ade00ca5-1
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox20170601, libubus20170705
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libuclient20160123
+Version: 2019-05-30-3b3e368d-1
+Depends: libc, libubox20170601
+Provides: libuclient
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: ubusd
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox20170601, libblobmsg-json
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libubox20170601
+Version: 2019-02-27-eeef7b50-1
+Depends: libc
+Provides: libubox
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-mod-status
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, luci-base, libiwinfo20181126, libiwinfo-lua
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libxtables12
+Version: 1.8.2-3
+Depends: libc
+Provides: libxtables
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libiwinfo20181126
+Version: 2019-05-21-073a8388-1
+Depends: libc, libnl-tiny, libuci20130104, libubus20170705
+Provides: libiwinfo
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: firewall
+Version: 2019-01-02-70f8785b-2
+Depends: libc, libubox20170601, libubus20170705, libuci20130104, libip4tc0, libip6tc0, libxtables12, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/config/firewall 303d858071dfcf1d1e8593168eb9c582a2c774211f23cef4bf7c85e4060a5e8c
+ /etc/firewall.user bd68324966481011f5e36570258ad97dd422655c16f3119d48325ed8459de510
+Installed-Time: 1560295132
+
+Package: luci-app-firewall
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, firewall
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-nf-ipt
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-ip6tables
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-reject6, kmod-nf-ipt6, kmod-ipt-core
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: odhcp6c
+Version: 2019-01-11-d2e247d8-16
+Depends: libc, libubox20170601
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: fstools
+Version: 2019-03-28-ff1ded63-4
+Depends: libc, ubox
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: uclient-fetch
+Version: 2019-05-30-3b3e368d-1
+Depends: libc, libuclient20160123
+Provides: wget
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Alternatives: 200:/usr/bin/wget:/bin/uclient-fetch
+
+Package: kmod-ath9k
+Version: 4.14.123+4.19.32-1-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ath9k-common
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: uci
+Version: 2019-05-17-f199b961-3
+Depends: libc, libuci20130104
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: lua
+Version: 5.1.5-3
+Depends: libc, liblua5.1.5
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: wpad-mini
+Version: 2018-12-02-c2c6c01b-6
+Depends: libc, libnl-tiny, hostapd-common, libubus20170705
+Provides: hostapd, wpa-supplicant
+Conflicts: hostapd, hostapd-basic, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: libip4tc0
+Version: 1.8.2-3
+Depends: libc, libxtables12
+Provides: libip4tc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: odhcpd-ipv6only
+Version: 2019-05-17-41a74cba-3
+Depends: libc, libubox20170601, libuci20130104, libubus20170705, libnl-tiny
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: luci-proto-ppp
+Version: git-19.175.26687-16df8c9-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: ppp
+Version: 2.4.7.git-2019-05-25-2
+Depends: libc, kmod-ppp
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/ppp/chap-secrets 6981fa176a79f8c12be5826c421b16253a616747018ba7e76752a9d36d1d51d4
+ /etc/ppp/filter 579583b318e0cff706ffc134620b42d3fbce8fc31aeb0ad7eea1cc859868e902
+ /etc/ppp/options 01f7358a5528be037dde329a2ecfb7a63382aababf21d4f5bc085f5acef95133
+Installed-Time: 1560295132
+
+Package: luci-mod-admin-full
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, luci-base, luci-mod-status, luci-mod-system, luci-mod-network
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-base
+Version: f138fc93-1
+Depends: libc, lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua, luci-lib-jsonc, liblucihttp-lua
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/luci-uploads/.placeholder e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+ /etc/config/luci 5a7c058ee80817cbda78401fa5e13eb2c0580d4aca9e4bf00df12f8d558aec29
+ /etc/config/ucitrack 3480e8ca8e224537c9d95e7678b05123ff7b06a2a0b3d1000032a04576d90381
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-gpio-button-hotplug
+Version: 4.14.123-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-mac80211
+Version: 4.14.123+4.19.32-1-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-cfg80211, hostapd-common
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libjson-script
+Version: 2019-02-27-eeef7b50-1
+Depends: libc, libubox20170601
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-proto-ipv6
+Version: git-19.175.26687-16df8c9-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libblobmsg-json
+Version: 2019-02-27-eeef7b50-1
+Depends: libc, libjson-c2, libubox20170601
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libip6tc0
+Version: 1.8.2-3
+Depends: libc, libxtables12
+Provides: libip6tc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: iptables
+Version: 1.8.2-3
+Depends: libc, kmod-ipt-core, libip4tc0, libip6tc0, libxtables12
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: openwrt-keyring
+Version: 2018-05-18-103a32e9-1
+Depends: libc
+Provides: lede-keyring
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: jshn
+Version: 2019-02-27-eeef7b50-1
+Depends: libc, libjson-c2, libubox20170601, libblobmsg-json
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-ipt-core
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-reject, kmod-nf-ipt
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-ppp
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-lib-crc-ccitt, kmod-slhc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: libjson-c2
+Version: 0.12.1-3
+Depends: libc
+Provides: libjson-c
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: uhttpd
+Version: 2018-11-28-cdfc902a-3
+Depends: libc, libubox20170601, libblobmsg-json, libjson-script
+Status: install user installed
+Architecture: mips_24kc
+Conffiles:
+ /etc/config/uhttpd 282b7e2158fe40689429c27dbfc9d741bf7ac5ba6b29c8be023cffd5d3132432
+Installed-Time: 1560295132
+
+Package: kmod-nf-conntrack
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e)
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: usign
+Version: 2015-07-04-ef641914-1
+Depends: libc, libubox20170601
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: ip6tables
+Version: 1.8.2-3
+Depends: libc, kmod-ip6tables, iptables
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: liblua5.1.5
+Version: 5.1.5-3
+Depends: libc
+Provides: liblua
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-nf-ipt6
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-ipt
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: luci-lib-nixio
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, liblua5.1.5
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libubus20170705
+Version: 2018-10-06-221ce7e7-1
+Depends: libc, libubox20170601
+Provides: libubus
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-i18n-base-zh-cn
+Version: f138fc93-1
+Depends: libc, luci-base
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+
+Package: liblucihttp-lua
+Version: 2019-06-05-91c01c3c-1
+Depends: libc, liblucihttp0, liblua5.1.5
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-lib-jsonc
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, liblua5.1.5, libjson-c2
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, uhttpd, luci-mod-admin-full, luci-theme-rosy, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6, rpcd-mod-rrdns
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+
+Package: kmod-nf-conntrack6
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-nf-conntrack
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: libgcc1
+Version: 7.4.0-1
+Provides: libgcc
+Status: install hold installed
+Essential: yes
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-ath
+Version: 4.14.123+4.19.32-1-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-mac80211
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: ubox
+Version: 2019-04-07-5130fa4d-1
+Depends: libc, libubox20170601, ubusd, ubus, libubus20170705, libuci20130104
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kernel
+Version: 4.14.123-1-c42eac949dc063d730fe090a376b533e
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-mod-network
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, luci-base, libiwinfo-lua
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-theme-rosy
+Version: git-19.175.26687-16df8c9-1
+Depends: libc
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: fwtool
+Version: 1
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: jsonfilter
+Version: 2018-02-04-c7e938d6-1
+Depends: libc, libubox20170601, libjson-c2
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: hostapd-common
+Version: 2018-12-02-c2c6c01b-6
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-ipt-offload
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ipt-core, kmod-nf-flow
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-ath9k-common
+Version: 4.14.123+4.19.32-1-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ath
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: wireless-regdb
+Version: 2017-10-20-4343d359
+Depends: libc
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: kmod-slhc
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-lib-crc-ccitt
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-cfg80211
+Version: 4.14.123+4.19.32-1-2
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), iw, wireless-regdb
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-19.175.26687-16df8c9-1
+Depends: libc, luci-app-firewall
+Status: install user installed
+Architecture: all
+Installed-Time: 1560295132
+
+Package: rpcd-mod-rrdns
+Version: 20170710
+Depends: libc, rpcd, libubox20170601, libubus20170705
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+Auto-Installed: yes
+
+Package: ppp-mod-pppoe
+Version: 2.4.7.git-2019-05-25-2
+Depends: libc, kmod-pppoe
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+
+Package: kmod-ipt-nat
+Version: 4.14.123-1
+Depends: kernel (= 4.14.123-1-c42eac949dc063d730fe090a376b533e), kmod-ipt-core, kmod-nf-nat
+Status: install user installed
+Architecture: mips_24kc
+Installed-Time: 1560295132
+

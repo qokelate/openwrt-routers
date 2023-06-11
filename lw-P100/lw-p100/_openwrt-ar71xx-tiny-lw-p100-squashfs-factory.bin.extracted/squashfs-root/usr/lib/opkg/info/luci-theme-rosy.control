@@ -1,0 +1,9 @@
+Package: luci-theme-rosy
+Version: git-19.175.26687-16df8c9-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-rosy
+SourceName: luci-theme-rosy
+Section: luci
+Architecture: all
+Installed-Size: 104616
+Description:  Rosy Theme

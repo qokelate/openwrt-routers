@@ -1,0 +1,13 @@
+Package: wpad-mini
+Version: 2018-12-02-c2c6c01b-6
+Depends: libc, libnl-tiny, hostapd-common, libubus20170705
+Conflicts: hostapd, hostapd-basic, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-basic
+Provides: hostapd, wpa-supplicant
+Source: package/network/services/hostapd
+SourceName: wpad-mini
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mips_24kc
+Installed-Size: 248068
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
